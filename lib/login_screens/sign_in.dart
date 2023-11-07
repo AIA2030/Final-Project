@@ -44,7 +44,7 @@ class LoginScreen extends StatelessWidget {
                   SizedBox(height: 80,),
                  Column(
                    children: <Widget>[
-                     Icon(Icons.calendar_view_day_outlined, size: 100, color: Colors.cyanAccent.shade700,),
+                     Icon(Icons.list_alt, size: 100, color: Colors.cyanAccent.shade700,),
                      SizedBox(height: 10,),
                      Text("SIGN IN", style: TextStyle(color: Colors.black87, fontSize: 30, fontWeight: FontWeight.bold,),),
                      SizedBox(height: 50.0,),

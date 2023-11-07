@@ -1,4 +1,3 @@
-
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:final_project/View_model/view_model.dart';
 import 'package:final_project/login_screens/sign_in.dart';
@@ -29,7 +28,7 @@ class MyApp extends StatelessWidget {
       ),
 
       home: AnimatedSplashScreen(splash:
-      Icon(Icons.calendar_view_day_outlined,size: 200, color: Colors.white,),
+          Icon(Icons.list_alt,size: 200, color: Colors.white,),
           duration: 2000,
           splashTransition: SplashTransition.rotationTransition,
           backgroundColor: Colors.cyanAccent.shade700,

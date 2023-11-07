@@ -80,6 +80,8 @@ flutter:
     - assets/ic_launcher.png
     - assets/icon-192.png
     - assets/1.png
+    - assets/ic_launcher_daily.png
+    - assets/ic_launcher_monochrome.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
