@@ -10,7 +10,6 @@ class DashboardScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final TextEditingController entryController = TextEditingController();
     return Consumer <TodoModelApp> (builder: (context, viewmodel, child) {
 
       return Scaffold(
@@ -45,11 +44,11 @@ class DashboardScreen extends StatelessWidget {
 
                       children: <Widget>[
 
-                        Text("Dashboard", style: TextStyle(color: Colors.black87, fontSize: 20, fontWeight: FontWeight.bold,),),
+                      //  Text("Dashboard", style: TextStyle(color: Colors.black87, fontSize: 20, fontWeight: FontWeight.bold,),),
                         SizedBox(height: 20,),
 
                         Card(
-                          color: Colors.cyan,
+                          color: Colors.cyan.shade400,
                           shape: RoundedRectangleBorder(
                               side: BorderSide(
                                 color: Colors.black87,
@@ -72,9 +71,9 @@ class DashboardScreen extends StatelessWidget {
                                       Center(child: Container(
                                           width: 130,
                                           height: 50,
-                                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), color: Colors.black87,  ) ,
-                                          child: Center(child: Text("number is ${viewmodel.getlengthtask()}",
-                                            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.white,),),))),
+                                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), color: Colors.grey.shade200,  ) ,
+                                          child: Center(child: Text(" ${viewmodel.getlengthtask()}",
+                                            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black87,),),))),
                                     ],
                                   ),
                                 )
@@ -82,7 +81,7 @@ class DashboardScreen extends StatelessWidget {
                           ),
                         ),
                         Card(
-                          color: Colors.cyan,
+                          color: Colors.cyan.shade400,
                           shape: RoundedRectangleBorder(
                               side: BorderSide(
                                 color: Colors.black87,
@@ -105,9 +104,9 @@ class DashboardScreen extends StatelessWidget {
                                       Center(child: Container(
                                           width: 130,
                                           height: 50,
-                                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), color: Colors.black87,  ) ,
-                                          child: Center(child: Text("number is ${viewmodel.numofcompletetask()}",
-                                            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.white,),),))),
+                                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), color: Colors.grey.shade200,  ) ,
+                                          child: Center(child: Text(" ${viewmodel.numofcompletetask()}",
+                                            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black87,),),))),
                                     ],
                                   ),
                                 )
@@ -115,7 +114,7 @@ class DashboardScreen extends StatelessWidget {
                           ),
                         ),
                         Card(
-                          color: Colors.cyan,
+                          color: Colors.cyan.shade400,
                           shape: RoundedRectangleBorder(
                               side: BorderSide(
                                 color: Colors.black87,
@@ -138,9 +137,9 @@ class DashboardScreen extends StatelessWidget {
                                       Center(child: Container(
                                           width: 130,
                                           height: 50,
-                                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), color: Colors.black87,  ) ,
-                                          child: Center(child: Text("number is ${viewmodel.numofnotcompletetask()}",
-                                            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.white,),),))),
+                                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), color: Colors.grey.shade200,  ) ,
+                                          child: Center(child: Text(" ${viewmodel.numofnotcompletetask()}",
+                                            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black87,),),))),
                                     ],
                                   ),
                                 )
