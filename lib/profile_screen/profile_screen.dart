@@ -43,7 +43,7 @@ class ProfileScreen extends StatelessWidget {
                 child: Padding(padding: EdgeInsets.all(20),
                     child: Container(
                       decoration: BoxDecoration(
-                        color: Colors.cyan.shade800.withOpacity(0.9),borderRadius: BorderRadius.all(Radius.circular(15)),
+                        color: Colors.cyan.shade400,borderRadius: BorderRadius.all(Radius.circular(15)),
                       ),
                       padding: EdgeInsets.all(20),
                       child: Column(
@@ -61,7 +61,7 @@ class ProfileScreen extends StatelessWidget {
 
                                 ),
 
-                                SizedBox(width: 30.0,),
+                                SizedBox(width: 40.0,),
 
                                 Text("Aya Ibrahim", style: TextStyle(fontStyle: FontStyle.italic, fontWeight: FontWeight.bold, fontSize: 18,),)
                               ],
@@ -74,13 +74,13 @@ class ProfileScreen extends StatelessWidget {
                             padding: EdgeInsets.all(10),
                             height: 80,
                             decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(12), color: Colors.cyanAccent.shade400.withOpacity(0.7).withOpacity(0.6)),
+                                borderRadius: BorderRadius.circular(12), color: Colors.grey.shade100),
 
                             child: ListTile(
-                                leading: Icon(Icons.person, size: 30, color: Colors.cyan.shade100,),
+                                leading: Icon(Icons.person, size: 30, color: Colors.cyanAccent.shade700,),
 
                                 title: Text("User Name : ", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black87),),
-                                subtitle: Text(" AYA IBRAHIM ", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.white),),
+                                subtitle: Text(" AYA IBRAHIM ", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.black87),),
 
                                 trailing: FittedBox(
 
@@ -89,8 +89,10 @@ class ProfileScreen extends StatelessWidget {
                                   child: Row(
                                     children: <Widget>[
 
-                                      IconButton(icon: Icon(Icons.edit), color: Colors.cyan.shade100, iconSize: 22,
-                                        onPressed: (){},
+                                      IconButton(icon: Icon(Icons.edit), color: Colors.cyanAccent.shade700, iconSize: 22,
+                                        onPressed: (){
+
+                                        },
                                       ),
                                     ],
                                   ),
@@ -105,13 +107,13 @@ class ProfileScreen extends StatelessWidget {
                             padding: EdgeInsets.all(10),
                             height: 80,
                             decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(12), color: Colors.cyanAccent.shade400.withOpacity(0.7)),
+                                borderRadius: BorderRadius.circular(12), color: Colors.grey.shade100),
 
                             child: ListTile(
-                                leading: Icon(Icons.lock_outline, size: 30, color: Colors.cyan.shade100),
+                                leading: Icon(Icons.lock_outline, size: 30, color: Colors.cyanAccent.shade700),
 
                                 title: Text("Password : ", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black87),),
-                                subtitle: Text(" ************  ", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.white),),
+                                subtitle: Text(" ************  ", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.black87),),
 
                                 trailing: FittedBox(
 
@@ -120,7 +122,7 @@ class ProfileScreen extends StatelessWidget {
                                   child: Row(
                                     children: <Widget>[
 
-                                      IconButton(icon: Icon(Icons.edit), color: Colors.cyan.shade100, iconSize: 22,
+                                      IconButton(icon: Icon(Icons.edit), color: Colors.cyanAccent.shade700, iconSize: 22,
                                         onPressed: (){},
                                       ),
                                     ],
@@ -136,13 +138,13 @@ class ProfileScreen extends StatelessWidget {
                             padding: EdgeInsets.all(10),
                             height: 90,
                             decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(12), color: Colors.cyanAccent.shade400.withOpacity(0.7)),
+                                borderRadius: BorderRadius.circular(12), color: Colors.grey.shade100),
 
                             child: ListTile(
-                                leading: Icon(Icons.email_outlined, size: 30, color: Colors.cyan.shade100,),
+                                leading: Icon(Icons.email_outlined, size: 30, color: Colors.cyanAccent.shade700,),
 
                                 title: Text("Email : ", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black87),),
-                                subtitle: Text(" AIA92@yahoo.com ", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.white),),
+                                subtitle: Text(" AIA92@yahoo.com ", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.black87),),
 
                                 trailing: FittedBox(
 
@@ -151,7 +153,7 @@ class ProfileScreen extends StatelessWidget {
                                   child: Row(
                                     children: <Widget>[
 
-                                      IconButton(icon: Icon(Icons.edit), color: Colors.cyan.shade100, iconSize: 22,
+                                      IconButton(icon: Icon(Icons.edit), color: Colors.cyanAccent.shade700, iconSize: 22,
                                         onPressed: (){},
                                       ),
                                     ],
@@ -167,13 +169,13 @@ class ProfileScreen extends StatelessWidget {
                             padding: EdgeInsets.all(10),
                             height: 95,
                             decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(12), color: Colors.cyanAccent.shade400.withOpacity(0.7)),
+                                borderRadius: BorderRadius.circular(12), color: Colors.grey.shade100),
 
                             child: ListTile(
-                                leading: Icon(Icons.local_phone_outlined, size: 30, color: Colors.cyan.shade100,),
+                                leading: Icon(Icons.local_phone_outlined, size: 30, color: Colors.cyanAccent.shade700,),
 
                                 title: Text("Mobile Number: ", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black87),),
-                                subtitle: Text(" 0100000000 ", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.white),),
+                                subtitle: Text(" 0100000000 ", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: Colors.black87),),
 
                                 trailing: FittedBox(
 
@@ -182,7 +184,7 @@ class ProfileScreen extends StatelessWidget {
                                   child: Row(
                                     children: <Widget>[
 
-                                      IconButton(icon: Icon(Icons.edit), color: Colors.cyan.shade100, iconSize: 22,
+                                      IconButton(icon: Icon(Icons.edit), color: Colors.cyanAccent.shade700, iconSize: 22,
                                         onPressed: (){},
                                       ),
                                     ],
